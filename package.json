@@ -1,0 +1,24 @@
+{
+  "name": "wsdlkep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "env": "^0.0.2",
+    "soap": "^1.6.0",
+    "strong-soap": "^5.0.3"
+  },
+  "optionalDependencies": {
+    "@chilkat/ck-node22-mac-universal": "^11.0.0",
+    "@chilkat/ck-node22-win64": "^11.0.0",
+    "@chilkat/ck-node22-linux-x64": "^11.0.0"
+  }
+}
