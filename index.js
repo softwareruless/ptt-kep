@@ -8,7 +8,14 @@ const fs = require("fs");
 const path = require("path");
 const os = require("os");
 
-const chilkat = require("@chilkat/ck-node22-mac-universal");
+const platform = os.platform();
+
+const chilkat =
+  platform === "darwin"
+    ? require("@chilkat/ck-node22-mac-universal")
+    : platform === "linux"
+    ? require("@chilkat/ck-node22-linux-x64")
+    : platform === "win32" && require("@chilkat/ck-node22-win64");
 
 // Kaynak klasörü
 const resources = path.join(__dirname, "resources");

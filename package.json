@@ -17,8 +17,8 @@
     "strong-soap": "^5.0.3"
   },
   "optionalDependencies": {
+    "@chilkat/ck-node22-linux-x64": "^11.0.0",
     "@chilkat/ck-node22-mac-universal": "^11.0.0",
-    "@chilkat/ck-node22-win64": "^11.0.0",
-    "@chilkat/ck-node22-linux-x64": "^11.0.0"
+    "@chilkat/ck-node22-win64": "^11.2.0"
   }
 }
